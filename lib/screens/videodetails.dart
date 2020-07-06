@@ -6,8 +6,9 @@ import 'package:consequences/widgets/player.dart';
 
 class VideoDetails extends StatefulWidget {
   final chapter_url;
+  final chapter_no;
 
-  VideoDetails({this.chapter_url});
+  VideoDetails({this.chapter_url,this.chapter_no});
 
   @override
   _VideoDetailsState createState() => _VideoDetailsState();
@@ -69,7 +70,7 @@ class _VideoDetailsState extends State<VideoDetails>
               child: new TabBarView(
                 controller: _controller,
                 children: <Widget>[
-                  new VerticalList(),
+                  new VerticalList(chapter_no: widget.chapter_no,),
                   new Container(
                       child:
                           Text("Lorem Ipsum", style: TextStyle(color: white))),

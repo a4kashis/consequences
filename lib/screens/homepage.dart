@@ -20,7 +20,8 @@ class HomePage extends StatelessWidget {
                       context,
                       new MaterialPageRoute(
                           builder: (context) => VideoDetails(
-                                chapter_url: values[index]["chapter_url"],
+                            chapter_url: values[index]["chapter_url"],
+                            chapter_no: values[index]["chapter_no"],
                               )));
                   print(values[index]["chapter_url"]);
                 },
