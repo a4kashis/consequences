@@ -40,7 +40,7 @@ List<Map<String, dynamic>> chapter_details = [
     "chapter_url": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4",
   },
   {
-    "chapter_no": "CONSEQUENCE II",
+    "chapter_no": "CONSEQUENCE VI",
     "chapter_date": "DECEMBER 19",
     "chapter_desc":
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

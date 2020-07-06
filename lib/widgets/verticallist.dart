@@ -73,11 +73,11 @@ class _VerticalListState extends State<VerticalList> {
                       ? Container(
                     width: MediaQuery.of(context).size.width,
                           height: 100,
-                          padding: const EdgeInsets.all(8),
-                          margin: const EdgeInsets.all(8),
+                          padding: const EdgeInsets.all(9),
+                          margin: const EdgeInsets.all(9),
                           decoration: BoxDecoration(
-                              color: Colors.white.withOpacity(0.7)),
-                    child: Center(child: Icon(Icons.play_circle_filled,size: 50,)),
+                              color: Colors.black.withOpacity(0.7)),
+                    child: Center(child: Icon(Icons.play_circle_filled,size: 50,color: grey)),
                         )
                       : Container(),
                 ]),
